@@ -1,0 +1,22 @@
+.bad_word
+{
+    border-color: red;
+    background-color: lightcoral;
+    color: darkred;
+}
+.nice_word
+{
+    border-color: green;
+    background-color: lightgreen;
+}
+.bad_text
+{
+    display: block;
+    border-color: red;
+    background-color: lightcoral;
+    color: darkred;
+}
+.nice_text
+{
+    display: none;
+}

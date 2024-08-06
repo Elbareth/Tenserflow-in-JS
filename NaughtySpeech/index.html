@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mój mały niegrzeczny detektor
+        </title>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body> 
+        <p class="nice_text" id="info_text">Użyłeś bardzo brzydkiego słowa! :O</p>       
+        <input type="text" id = "word"/>
+        <input type="button" value="Wyślij" onclick="checkTheWord()"/>
+    </body>
+</html>
